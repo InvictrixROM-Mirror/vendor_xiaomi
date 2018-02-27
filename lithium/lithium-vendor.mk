@@ -23,10 +23,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Headset_cal.acdb \
     vendor/xiaomi/lithium/proprietary/vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Speaker_cal.acdb \
     vendor/xiaomi/lithium/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
-    vendor/xiaomi/lithium/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
-    vendor/xiaomi/lithium/proprietary/etc/camera/ov16880_chromatix.xml:system/etc/camera/ov16880_chromatix.xml \
-    vendor/xiaomi/lithium/proprietary/etc/camera/ov5675_primax_chromatix.xml:system/etc/camera/ov5675_primax_chromatix.xml \
-    vendor/xiaomi/lithium/proprietary/etc/camera/s5k3p3_qtech_chromatix.xml:system/etc/camera/s5k3p3_qtech_chromatix.xml \
+    vendor/xiaomi/lithium/proprietary/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8996_camera.xml \
+    vendor/xiaomi/lithium/proprietary/etc/camera/ov16880_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov16880_chromatix.xml \
+    vendor/xiaomi/lithium/proprietary/etc/camera/ov5675_primax_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov5675_primax_chromatix.xml \
+    vendor/xiaomi/lithium/proprietary/etc/camera/s5k3p3_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3_qtech_chromatix.xml \
     vendor/xiaomi/lithium/proprietary/etc/elliptic_sensor.xml:system/etc/elliptic_sensor.xml \
     vendor/xiaomi/lithium/proprietary/vendor/firmware/a530_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b00 \
     vendor/xiaomi/lithium/proprietary/vendor/firmware/a530_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b01 \

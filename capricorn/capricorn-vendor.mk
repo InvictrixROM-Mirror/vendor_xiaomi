@@ -24,12 +24,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Headset_cal.acdb \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Speaker_cal.acdb \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
-    vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_chromatix.xml:system/etc/camera/imx378_chromatix.xml \
-    vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_liteon_chromatix.xml:system/etc/camera/imx378_liteon_chromatix.xml \
-    vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_semco_chromatix.xml:system/etc/camera/imx378_semco_chromatix.xml \
-    vendor/xiaomi/capricorn/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
-    vendor/xiaomi/capricorn/proprietary/etc/camera/ov4688_a7_chromatix.xml:system/etc/camera/ov4688_a7_chromatix.xml \
-    vendor/xiaomi/capricorn/proprietary/etc/camera/ov4688_primax_a7_chromatix.xml:system/etc/camera/ov4688_primax_a7_chromatix.xml \
+    vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx378_chromatix.xml \
+    vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_liteon_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx378_liteon_chromatix.xml \
+    vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_semco_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx378_semco_chromatix.xml \
+    vendor/xiaomi/capricorn/proprietary/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8996_camera.xml \
+    vendor/xiaomi/capricorn/proprietary/etc/camera/ov4688_a7_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov4688_a7_chromatix.xml \
+    vendor/xiaomi/capricorn/proprietary/etc/camera/ov4688_primax_a7_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov4688_primax_a7_chromatix.xml \
     vendor/xiaomi/capricorn/proprietary/vendor/firmware/a530_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b00 \
     vendor/xiaomi/capricorn/proprietary/vendor/firmware/a530_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b01 \
     vendor/xiaomi/capricorn/proprietary/vendor/firmware/a530_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b02 \

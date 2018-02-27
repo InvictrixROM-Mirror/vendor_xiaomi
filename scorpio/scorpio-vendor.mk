@@ -23,12 +23,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/scorpio/proprietary/vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Headset_cal.acdb \
     vendor/xiaomi/scorpio/proprietary/vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Speaker_cal.acdb \
     vendor/xiaomi/scorpio/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/imx268_chromatix.xml:system/etc/camera/imx268_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/imx268_sunny_chromatix.xml:system/etc/camera/imx268_sunny_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/imx318_chromatix.xml:system/etc/camera/imx318_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/imx318_primax_chromatix.xml:system/etc/camera/imx318_primax_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/imx318_semco_chromatix.xml:system/etc/camera/imx318_semco_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
+    vendor/xiaomi/scorpio/proprietary/etc/camera/imx268_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx268_chromatix.xml \
+    vendor/xiaomi/scorpio/proprietary/etc/camera/imx268_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx268_sunny_chromatix.xml \
+    vendor/xiaomi/scorpio/proprietary/etc/camera/imx318_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx318_chromatix.xml \
+    vendor/xiaomi/scorpio/proprietary/etc/camera/imx318_primax_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx318_primax_chromatix.xml \
+    vendor/xiaomi/scorpio/proprietary/etc/camera/imx318_semco_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx318_semco_chromatix.xml \
+    vendor/xiaomi/scorpio/proprietary/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8996_camera.xml \
     vendor/xiaomi/scorpio/proprietary/vendor/firmware/a530_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b00 \
     vendor/xiaomi/scorpio/proprietary/vendor/firmware/a530_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b01 \
     vendor/xiaomi/scorpio/proprietary/vendor/firmware/a530_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b02 \

@@ -24,11 +24,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Headset_cal.acdb \
     vendor/xiaomi/gemini/proprietary/vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Speaker_cal.acdb \
     vendor/xiaomi/gemini/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
-    vendor/xiaomi/gemini/proprietary/etc/camera/imx298_liteon_chromatix.xml:system/etc/camera/imx298_liteon_chromatix.xml \
-    vendor/xiaomi/gemini/proprietary/etc/camera/imx298_semco_chromatix.xml:system/etc/camera/imx298_semco_chromatix.xml \
-    vendor/xiaomi/gemini/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
-    vendor/xiaomi/gemini/proprietary/etc/camera/ov4688_chromatix.xml:system/etc/camera/ov4688_chromatix.xml \
-    vendor/xiaomi/gemini/proprietary/etc/camera/ov4688_primax_chromatix.xml:system/etc/camera/ov4688_primax_chromatix.xml \
+    vendor/xiaomi/gemini/proprietary/etc/camera/imx298_liteon_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx298_liteon_chromatix.xml \
+    vendor/xiaomi/gemini/proprietary/etc/camera/imx298_semco_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx298_semco_chromatix.xml \
+    vendor/xiaomi/gemini/proprietary/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8996_camera.xml \
+    vendor/xiaomi/gemini/proprietary/etc/camera/ov4688_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov4688_chromatix.xml \
+    vendor/xiaomi/gemini/proprietary/etc/camera/ov4688_primax_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov4688_primax_chromatix.xml \
     vendor/xiaomi/gemini/proprietary/vendor/firmware/a530_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b00 \
     vendor/xiaomi/gemini/proprietary/vendor/firmware/a530_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b01 \
     vendor/xiaomi/gemini/proprietary/vendor/firmware/a530_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b02 \

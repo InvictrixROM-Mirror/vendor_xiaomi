@@ -23,13 +23,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/natrium/proprietary/vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Headset_cal.acdb \
     vendor/xiaomi/natrium/proprietary/vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Speaker_cal.acdb \
     vendor/xiaomi/natrium/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
-    vendor/xiaomi/natrium/proprietary/etc/camera/imx258_chromatix.xml:system/etc/camera/imx258_chromatix.xml \
-    vendor/xiaomi/natrium/proprietary/etc/camera/imx258_mono_chromatix.xml:system/etc/camera/imx258_mono_chromatix.xml \
-    vendor/xiaomi/natrium/proprietary/etc/camera/imx258_mono_ofilm_chromatix.xml:system/etc/camera/imx258_mono_ofilm_chromatix.xml \
-    vendor/xiaomi/natrium/proprietary/etc/camera/imx258_ofilm_chromatix.xml:system/etc/camera/imx258_ofilm_chromatix.xml \
-    vendor/xiaomi/natrium/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
-    vendor/xiaomi/natrium/proprietary/etc/camera/ov4688_b7_chromatix.xml:system/etc/camera/ov4688_b7_chromatix.xml \
-    vendor/xiaomi/natrium/proprietary/etc/camera/ov4688_primax_b7_chromatix.xml:system/etc/camera/ov4688_primax_b7_chromatix.xml \
+    vendor/xiaomi/natrium/proprietary/etc/camera/imx258_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_chromatix.xml \
+    vendor/xiaomi/natrium/proprietary/etc/camera/imx258_mono_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_mono_chromatix.xml \
+    vendor/xiaomi/natrium/proprietary/etc/camera/imx258_mono_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_mono_ofilm_chromatix.xml \
+    vendor/xiaomi/natrium/proprietary/etc/camera/imx258_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_ofilm_chromatix.xml \
+    vendor/xiaomi/natrium/proprietary/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8996_camera.xml \
+    vendor/xiaomi/natrium/proprietary/etc/camera/ov4688_b7_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov4688_b7_chromatix.xml \
+    vendor/xiaomi/natrium/proprietary/etc/camera/ov4688_primax_b7_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov4688_primax_b7_chromatix.xml \
     vendor/xiaomi/natrium/proprietary/vendor/firmware/a530_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b00 \
     vendor/xiaomi/natrium/proprietary/vendor/firmware/a530_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b01 \
     vendor/xiaomi/natrium/proprietary/vendor/firmware/a530_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b02 \
