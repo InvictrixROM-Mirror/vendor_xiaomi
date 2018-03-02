@@ -18,8 +18,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/xiaomi/msm8996-common/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/xiaomi/msm8996-common/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
-    vendor/xiaomi/msm8996-common/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
-    vendor/xiaomi/msm8996-common/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/SwimConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/SwimConfig.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/cne/andsfCne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/andsfCne.xml \
     vendor/xiaomi/msm8996-common/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
     vendor/xiaomi/msm8996-common/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     vendor/xiaomi/msm8996-common/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
@@ -38,25 +38,25 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
     vendor/xiaomi/msm8996-common/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/xiaomi/msm8996-common/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/xiaomi/msm8996-common/proprietary/etc/permissions/audiosphere.xml:system/etc/permissions/audiosphere.xml \
-    vendor/xiaomi/msm8996-common/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/audiosphere.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/cneapiclient.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/com.qti.location.sdk.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.location.sdk.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/xiaomi/msm8996-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/xiaomi/msm8996-common/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/xiaomi/msm8996-common/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qualcomm.location.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/permissions/com.quicinc.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.quicinc.cne.xml \
+    vendor/xiaomi/msm8996-common/proprietary/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/izat.xt.srv.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_libpermissions.xml \
     vendor/xiaomi/msm8996-common/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
-    vendor/xiaomi/msm8996-common/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/xiaomi/msm8996-common/proprietary/framework/audiosphere.jar:system/framework/audiosphere.jar \
-    vendor/xiaomi/msm8996-common/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+    vendor/xiaomi/msm8996-common/proprietary/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/telephonyservice.xml \
+    vendor/xiaomi/msm8996-common/proprietary/framework/audiosphere.jar:$(TARGET_COPY_OUT_VENDOR)/framework/audiosphere.jar \
+    vendor/xiaomi/msm8996-common/proprietary/framework/cneapiclient.jar:$(TARGET_COPY_OUT_VENDOR)/framework/cneapiclient.jar \
     vendor/xiaomi/msm8996-common/proprietary/framework/com.qti.location.sdk.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.qti.location.sdk.jar \
     vendor/xiaomi/msm8996-common/proprietary/framework/com.qti.snapdragon.sdk.display.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.qti.snapdragon.sdk.display.jar \
-    vendor/xiaomi/msm8996-common/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
-    vendor/xiaomi/msm8996-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/xiaomi/msm8996-common/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/xiaomi/msm8996-common/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.quicinc.cne.api-V1.0-java.jar \
+    vendor/xiaomi/msm8996-common/proprietary/framework/com.quicinc.cne.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.quicinc.cne.jar \
+    vendor/xiaomi/msm8996-common/proprietary/framework/izat.xt.srv.jar:$(TARGET_COPY_OUT_VENDOR)/framework/izat.xt.srv.jar \
     vendor/xiaomi/msm8996-common/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/msm8996-common/proprietary/lib/lib-imscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscamera.so \
     vendor/xiaomi/msm8996-common/proprietary/lib/lib-imsvideocodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsvideocodec.so \
